@@ -326,7 +326,7 @@ $myBlack: #000000;
 //HEADER 
 
 header {
-    background-image: url("../images/header-picture.jpg");
+    background-image: url("../images/header-img.jpg");
     background-size: cover;
     padding-bottom: 15%;
     @include lg {
@@ -1088,11 +1088,6 @@ footer {
         border-radius: 50%;
         background-color: #000000;
     }
-        .fab {
-              &:hover {
-                  transform: scale(1.3);
-              }
-        }
     
 .fa-twitter {
  padding: 11px 11px;
