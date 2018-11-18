@@ -867,7 +867,7 @@ header .welcome button:hover {
 .about-us .images:after {
   content: '';
   width: 2px;
-  height: 70%;
+  height: 235px;
   background-color: #f1f1f1;
   display: block;
   position: absolute;
@@ -875,7 +875,7 @@ header .welcome button:hover {
   right: 0;
   margin: 0 auto;
   z-index: -1;
-  margin-top: 14%;
+  margin-top: 13%;
 }
 
 @media (max-width: 992px) {
@@ -1251,8 +1251,12 @@ header .welcome button:hover {
   border: none;
   font-size: 14px;
   text-transform: uppercase;
-  color: #cdcdcd;
+  color: #000000;
   font-weight: bold;
+}
+
+.contact form .form-left-side input ::placeholder {
+  color: #cdcdcd;
 }
 
 @media (max-width: 576px) {
@@ -1269,9 +1273,14 @@ header .welcome button:hover {
   border: none;
   font-size: 14px;
   text-transform: uppercase;
-  color: #cdcdcd;
+  color: #000000;
   font-weight: bold;
   height: 212px;
+  resize: none;
+}
+
+.contact form .form-right-side textarea ::placeholder {
+  color: #cdcdcd;
 }
 
 @media (max-width: 576px) {
@@ -1364,7 +1373,6 @@ footer .fa-google-plus-g:hover {
 
 footer p {
   text-align: center;
-  font-family: '';
   color: #555555;
   font-size: 15px;
 }
@@ -1376,7 +1384,7 @@ footer .social-position {
 footer .copy-position {
   position: absolute;
   top: 12px;
-  right: 30%;
+  right: 70%;
 }
 
 @media (max-width: 992px) {

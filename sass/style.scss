@@ -782,7 +782,7 @@ header {
         &:after {
             content: '';
             width: 2px;
-            height: 70%;
+            height: 235px;
             background-color: #f1f1f1;
             display: block;
             position: absolute;
@@ -790,7 +790,7 @@ header {
             right: 0;
             margin: 0 auto;
             z-index: -1;
-            margin-top: 14%;
+            margin-top: 13%;
 
             @include lg {
                 display: none;
@@ -1135,8 +1135,12 @@ header {
                 border: none;
                 font-size: 14px;
                 text-transform: uppercase;
-                color: #cdcdcd;
+                color: #000000;
                 font-weight: bold;
+
+                ::placeholder {
+                    color: #cdcdcd;
+                }
 
                 @include sm {
                     width: 100%;
@@ -1154,9 +1158,14 @@ header {
                 border: none;
                 font-size: 14px;
                 text-transform: uppercase;
-                color: #cdcdcd;
+                color: #000000;
                 font-weight: bold;
                 height: 212px;
+                resize: none;
+
+                ::placeholder {
+                    color: #cdcdcd;
+                }
 
                 @include sm {
                     width: 100%;
@@ -1249,7 +1258,6 @@ footer {
 
     p {
         text-align: center;
-        font-family: '';
         color: #555555;
         font-size: 15px;
     }
@@ -1261,12 +1269,10 @@ footer {
     .copy-position {
         position: absolute;
         top: 12px;
-        right: 30%;
-
+        right: 70%;
         @include lg {
             position: static;
             text-align: center;
         }
     }
-
 }
